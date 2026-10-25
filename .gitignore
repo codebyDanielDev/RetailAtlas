@@ -43,3 +43,24 @@ yarn-error.log
 /boost.json
 /opencode.json
 /opencode.jsonc
+
+# --- Datos ---
+# RetailAtlas es el motor, no el dataset. Ningun levantamiento real
+# (comercios, contactos, telefonos, CNPJ, planos) se versiona aqui.
+# Las fixtures publicas de ejemplo viven en database/seeders/examples/.
+/data
+/storage/app/imports
+/storage/app/floorplans
+/storage/app/private
+*.csv
+*.xlsx
+*.geojson
+*.gpkg
+*.mbtiles
+*.pmtiles
+*.osm.pbf
+*.sql
+*.dump
+!database/seeders/examples/*.csv
+!database/seeders/examples/*.geojson
+!database/migrations/*.sql
